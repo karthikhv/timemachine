@@ -34,9 +34,9 @@ h1{
     }*/
 
     .first{
-        padding-top: 350px;
+        padding-top: 250px;
         color:#000 !important;
-        padding-left: 280px;
+        padding-left: 260px;
         font-size: 46px !important;
     }
 
@@ -50,7 +50,12 @@ h1{
 
 @media only screen and (max-width:768px){
 
-
+.first{
+    padding-top: 150px;
+    padding-left: 30px;
+    margin-bottom: 145px;
+    font-size: 30px !important;
+}
 
 h1{
 	line-height: 34px;
@@ -64,6 +69,11 @@ h1{
  display:none !important;
 
 }
+}
+
+h1{
+    line-height: 34px;
+      font-size: 32px !important;
 }
 
 .form-bac{
